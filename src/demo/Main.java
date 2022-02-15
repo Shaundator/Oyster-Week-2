@@ -8,10 +8,11 @@ public class Main {
         NumberChecker nc = new NumberChecker();
         Scanner sc = new Scanner(System.in);
         while(true) {
+            System.out.print("write number: ");
             if(nc.isNumber(sc.nextLine())){
-                System.out.println("\nTHIS IS A NUMBER!!!!!\n");
+                System.out.println("This is a number");
             } else {
-                System.out.println("\nTHIS IS NOT A NUMBER!!!!!\n");
+                System.out.println("Not a number");
             }
         }
     }

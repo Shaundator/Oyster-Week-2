@@ -17,6 +17,9 @@ public class NumberChecker {
                 numbers = true;
             }
         }
+        if(!numbers){
+            return false;
+        }
 
         switch(dataPoints){
             case "-":
